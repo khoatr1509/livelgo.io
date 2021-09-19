@@ -1,6 +1,9 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  extend:{
+    animation: ['motion-safe'],
+  },
   purge: [],
   presets: [],
   darkMode: false, // or 'media' or 'class'
@@ -16,6 +19,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       livel:'#289cb4',
+      livel_bg:'#dbebf0',
       textdefault:'F3FDFF',
       black: colors.black,
       white: colors.white,
